@@ -100,7 +100,6 @@ go to your style ci account & activate styleci for you new repository
 
 before register travis you must setup github secure (for Documentation couscous)
 tuto [here](http://couscous.io/docs/travis.html)
-if you have a token linked to yours account you dont need new
 
 ```yaml
 env:
