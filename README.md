@@ -115,6 +115,11 @@ env:
 
 automatic settuped from travis
 
+
+### 8. Commit to start automation
+
+
+
 ## Documentation
 
 Please refer to our [online documentation](http://$$_GIT_REPO_FIRST_$$.github.io/$$_GIT_REPO_LAST_$$/) for more information.
