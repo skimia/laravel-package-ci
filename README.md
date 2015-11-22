@@ -48,9 +48,7 @@ Download this repository as Zip & copy all files in the new repository
 </tr>
 
 
-<tr>
-  <td>$$_GIT_REPO_EMAIL_$$</td>
-  <td>kessler.dev@gmail.com</td>
+<tr>http://couscous.io/docs/travis.html
 </tr>
 <tr>
   <td colspan="2">Respository Push Email</td>
@@ -64,12 +62,7 @@ Download this repository as Zip & copy all files in the new repository
 </tr>
 
 
-<tr>
-  <td>$$_GIT_REPO_NAME_$$</td>
-  <td>Skimia\Foundation</td>
-</tr>
-<tr>
-  <td colspan="2">Respository Name</td>
+<tr>http://couscous.io/docs/travis.html
 </tr>
 <tr>
   <td>$$_GIT_REPO_NAMESPACE_$$</td>
@@ -84,6 +77,43 @@ Download this repository as Zip & copy all files in the new repository
 
 ### 3. Commit to master
 
+### 4. Submit new package to packagist.org
+
+Setup the github service hook for your packagist package.
+
+- Go to repository "Setting" Page on github
+- Navigate to "Webhooks & services" tab
+- Click "Add Service" dropdown button & find packagist
+- Confirm your password
+- Add your Packagist username & token, validate by the button "Add Service"
+- you can check by navigate to packagist service hook in the list bellow to the "Add Service" button and click "Test service"
+
+### 5. Submit new package to styleci.io
+
+go to your style ci account & activate styleci for you new repository
+
+- Annalyse the new repository & go to this annalyse details
+- click on the badge
+- copy the markdown format to your README
+
+### 6. Travis
+
+before register travis you must setup github secure (for Documentation couscous)
+tuto [here](http://couscous.io/docs/travis.html)
+if you have a token linked to yours account you dont need new
+
+```yaml
+env:
+  global:
+    - secure: your_key_here
+```
+
+- go to your travis profile
+- activate the new repo ( you can sync for view your repo)
+
+### 7. codecov
+
+automatic settuped from travis
 
 ## Documentation
 
