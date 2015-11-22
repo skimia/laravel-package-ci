@@ -14,122 +14,65 @@
 <table>
 
 <tr>
-  <td>
-
-  ```json
-  $$_GIT_REPO_$$
-  ```
-
-  </td>
-  <td>
-
-  ```json
-  skimia/foundation
-  ```
-
-  </td>
+  <td>$$_GIT_REPO_$$</td>
+  <td>skimia/foundation</td>
 </tr>
 <tr>
   <td colspan="2">
   Respository GitHub UrlFormat
-
-
-  Exemple : https://github.com/skimia/foundation
   </td>
 </tr>
 
-
 <tr>
-  <td>One</td>
-  <td>Two</td>
+  <td>$$_GIT_REPO_FIRST_$$</td>
+  <td>skimia</td>
 </tr>
 <tr>
-  <td colspan="2">Three</td>
-</tr>
-
-
-<tr>
-  <td>One</td>
-  <td>Two</td>
-</tr>
-<tr>
-  <td colspan="2">Three</td>
+  <td colspan="2">Respository First urlFormat</td>
 </tr>
 
 
 <tr>
-  <td>One</td>
-  <td>Two</td>
+  <td>$$_GIT_REPO_LAST_$$</td>
+  <td>foundation</td>
 </tr>
 <tr>
-  <td colspan="2">Three</td>
+  <td colspan="2">Respository last urlFormat</td>
+</tr>
+
+
+<tr>
+  <td>$$_GIT_REPO_EMAIL_$$</td>
+  <td>kessler.dev@gmail.com</td>
+</tr>
+<tr>
+  <td colspan="2">Respository Push Email</td>
+</tr>
+<tr>
+  <td>$$_GIT_REPO_USER_$$</td>
+  <td>Kessler Dev</td>
+</tr>
+<tr>
+  <td colspan="2">Respository Push Username</td>
+</tr>
+
+
+<tr>
+  <td>$$_GIT_REPO_NAME_$$</td>
+  <td>Skimia\Foundation</td>
+</tr>
+<tr>
+  <td colspan="2">Respository Name</td>
+</tr>
+<tr>
+  <td>$$_GIT_REPO_NAMESPACE_$$</td>
+  <td>Skimia\\Foundation</td>
+</tr>
+<tr>
+  <td colspan="2">psr-4 CLASS NAMESPACE</td>
 </tr>
 
 </table>
-
-
-
-
-
-Respository Push Email
-
-```json
-$$_GIT_REPO_EMAIL_$$
-```
-
-```json
-kessler.dev@gmail.com
-```
-
-Respository Push Username
-
-```json
-$$_GIT_REPO_USER_$$
-```
-
-```json
-Kessler Dev
-```
-
-Respository Name
-
-```json
-$$_GIT_REPO_NAME_$$
-```
-
-```json
-Skimia\Foundation
-```
-
-Respository First urlFormat
-
-```json
-$$_GIT_REPO_FIRST_$$
-```
-
-```json
-skimia
-```
-
-Respository last urlFormat
-
-```json
-$$_GIT_REPO_LAST_$$
-```
-
-```json
-foundation
-```
-
-psr-4 CLASS NAMESPACE
-
-```json
-$$_GIT_REPO_NAMESPACE_$$
-```
-
-```json
-Skimia\\Foundation
-```
 
 
 ## Documentation
