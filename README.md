@@ -9,7 +9,15 @@
 
 ## Start
 
-### Search & Replace
+### 1: Create new repository
+
+for this exemple i use skimia/foundation
+
+Create and clone locally the new repository
+
+Download this repository as Zip & copy all files in the new repository
+
+### 2: Search & Replace
 
 <table>
 
@@ -25,9 +33,11 @@
 
 <tr>
   <td>$$_GIT_REPO_FIRST_$$</td>
-  <td>skimia</td>$$_GIT_REPO_NAME_$$ory First urlFormat</td>
+  <td>skimia</td>
 </tr>
-
+<tr>
+  <td colspan="2">Respository first urlFormat</td>
+</tr>
 
 <tr>
   <td>$$_GIT_REPO_LAST_$$</td>
@@ -70,6 +80,9 @@
 </tr>
 
 </table>
+
+
+### 3. Commit to master
 
 
 ## Documentation
