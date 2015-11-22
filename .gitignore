@@ -1,0 +1,8 @@
+/vendor
+.couscous/
+api/
+gh-pages/
+apigen.phar
+composer.phar
+composer.lock
+.DS_Store

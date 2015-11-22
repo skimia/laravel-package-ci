@@ -1,0 +1,29 @@
+{
+    "name": "$$_GIT_REPO_$$",
+    "description": "The awesome new Package",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "4.8.x-dev@dev",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "license": "GNU GPL",
+    "authors": [
+        {
+            "name": "$$_GIT_REPO_USER_$$",
+            "email": "$$_GIT_REPO_EMAIL_$$"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Exceptions/Fail/helpers.php"
+        ],
+        "psr-4": {
+            "$$_GIT_REPO_NAMESPACE_$$\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
