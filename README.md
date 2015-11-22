@@ -117,6 +117,10 @@ automatic settuped from travis
 
 ### 8. Commit to start automation
 
+### 404 Error on documentation Page
+
+delete your gh-pages branch on github.com
+
 
 
 ## Documentation
