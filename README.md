@@ -131,7 +131,8 @@ if your package need a dependency in dev version, you need to add the following 
   "prefer-stable": true
 }
 ```
-
+ modify your .travis.yml to add this line bellow `- composer create-project laravel/laravel`
+ `- php .fix_stability.php`
 
 ## Documentation
 
