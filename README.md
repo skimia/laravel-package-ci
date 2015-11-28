@@ -119,8 +119,18 @@ automatic settuped from travis
 
 ### 404 Error on documentation Page
 
-delete your gh-pages branch on github.com
+delete your gh-pages branch on github.com & rerun travis build
 
+### Need Package dev require
+
+if your package need a dependency in dev version, you need to add the following in your `composer.json` file
+
+```json
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
+```
 
 
 ## Documentation
