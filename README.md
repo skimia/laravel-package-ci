@@ -22,6 +22,16 @@ Download this repository as Zip & copy all files in the new repository
 <table>
 
 <tr>
+  <td>$$_GIT_REPO_NAME_$$</td>
+  <td>Skimia/Foundation</td>
+</tr>
+<tr>
+  <td colspan="2">
+  Nom du repository
+  </td>
+</tr>
+
+<tr>
   <td>$$_GIT_REPO_$$</td>
   <td>skimia/foundation</td>
 </tr>
@@ -48,7 +58,9 @@ Download this repository as Zip & copy all files in the new repository
 </tr>
 
 
-<tr>http://couscous.io/docs/travis.html
+<tr>
+  <td>$$_GIT_REPO_EMAIL_$$</td>
+  <td>kessler.dev@gmail.com</td>
 </tr>
 <tr>
   <td colspan="2">Respository Push Email</td>
@@ -62,8 +74,6 @@ Download this repository as Zip & copy all files in the new repository
 </tr>
 
 
-<tr>http://couscous.io/docs/travis.html
-</tr>
 <tr>
   <td>$$_GIT_REPO_NAMESPACE_$$</td>
   <td>Skimia\\Foundation</td>
